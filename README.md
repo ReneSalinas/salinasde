@@ -1,8 +1,9 @@
-# **PROGRAMACION WEB**
+
+# <center>**PROGRAMACION WEB**</center>
 # Repositorio salinasde
 
 
-![Error](https://dev-res.thumbr.io/libraries/15/36/62/lib/1481644679592_1.jpg?size=854x493s&ext=jpg)
+![Error](https://th.bing.com/th/id/OIP.v1pfI7HzHi8pQSwhG_liEwHaH-?pid=ImgDet&rs=1)
 
 
 - **Nombre:** *René Alexis Salinas de los Santos*
