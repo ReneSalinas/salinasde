@@ -10,3 +10,10 @@
 * Dentro de CSS se encuentran 2 tipos de cajas las cajas en bloque y cajas en línea (Todo depende de como se comportan y su relacion con las demas cajas de la página).
 
 
+**Partes que se conforman**
+-**Las cajas tipo bloque estan conformadas de:**
+-*Contenido de la caja: 
+
+![Error](https://s3-us-west-2.amazonaws.com/devcodepro/media/tutorials/modelo-caja-css-t1.jpg)
+
+
