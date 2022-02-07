@@ -11,6 +11,8 @@
 
 
 **Partes que se conforman**
+
+
 **Las cajas tipo bloque estan conformadas de:**
 - **1.-Contenido de la caja:** Es el área donde se muestra el contenido y su tamaño se puede cambiar utilziando sus propiedades **width** y **height**.
 - **2.-Relleno de la caja:** Es el espacio en blanco alrededor del contenido, se puede controlar su tamaño usando las propiedades **padding** y otras relacionadas.
