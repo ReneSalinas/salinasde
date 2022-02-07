@@ -8,4 +8,4 @@
 
 - **Nombre:** *René Alexis Salinas de los Santos*
 - **Numero de control:** *19100254*
-- **Semestre:** *Sexto*
+- **Semestre:** *Sexto Semestre*
