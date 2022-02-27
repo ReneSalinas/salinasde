@@ -20,7 +20,7 @@ ul>li:target>ul{
 }
 
 .opcion{
-    background: blue;
+    background: rgba(241, 165, 22, 0.856);
     color: white;
 }
 
