@@ -1,0 +1,43 @@
+@media only screen and (max-width: 800px)
+{
+    
+    table,thead,tbody,th,td,tr{
+        display: block;
+    }
+
+    tr {
+        border: 1px solid #ccc;
+    }
+
+    thead tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999;
+    }
+
+    td{
+        position: relative;
+        padding-left: 50%;
+        border: none;
+        border-bottom: 1px solid #eee;
+    }
+
+    td:before{
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        width: 45%;
+        padding-right: 10px;
+    }
+
+    td:nth-of-type(1):before { content: "Nombre"; }
+    td:nth-of-type(1):before { content: "Apellido Paterno"; }
+    td:nth-of-type(1):before { content: "Apellido Materno"; }
+    td:nth-of-type(1):before { content: "Departamento"; }
+    td:nth-of-type(1):before { content: "Ciudad"; }
+    td:nth-of-type(1):before { content: "Estado"; }
+    td:nth-of-type(1):before { content: "Pais"; }
+    td:nth-of-type(1):before { content: "Peso"; }
+    td:nth-of-type(1):before { content: "Estatura"; }
+    td:nth-of-type(1):before { content: "Sueldo"; }
+}
