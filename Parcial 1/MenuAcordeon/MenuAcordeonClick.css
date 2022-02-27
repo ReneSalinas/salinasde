@@ -12,12 +12,13 @@ ul{
 
 ul>li>ul{
     display: none;
+    
 }
 
 ul>li:target>ul{
     display: block;
-    max-height: 70px;
-    transition: .5s all ease-in;
+    max-height: 60px;
+    
 }
 
 .opcion{
