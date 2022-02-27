@@ -30,14 +30,8 @@
         padding-right: 10px;
     }
 
-    td:nth-of-type(1):before { content: "Nombre"; }
-    td:nth-of-type(1):before { content: "Apellido Paterno"; }
-    td:nth-of-type(1):before { content: "Apellido Materno"; }
-    td:nth-of-type(1):before { content: "Departamento"; }
-    td:nth-of-type(1):before { content: "Ciudad"; }
-    td:nth-of-type(1):before { content: "Estado"; }
-    td:nth-of-type(1):before { content: "Pais"; }
-    td:nth-of-type(1):before { content: "Peso"; }
-    td:nth-of-type(1):before { content: "Estatura"; }
-    td:nth-of-type(1):before { content: "Sueldo"; }
+    
+    
+    
+    
 }
