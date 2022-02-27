@@ -34,3 +34,9 @@ a {
     background: rgba(3, 172, 3, 0.794);
     color: white;
 }
+
+.menu{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18%;
+}
