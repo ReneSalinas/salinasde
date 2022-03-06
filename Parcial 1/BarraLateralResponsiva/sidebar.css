@@ -1,0 +1,39 @@
+*{  box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+div.Barra{ position: fixed; 
+             background-color: gold; 
+             width: 200px;
+             height: 100%;
+             overflow: auto;}
+
+a{  display: block; 
+    text-decoration:none; 
+    padding: 5px;}
+
+a:hover{background-color: dimgray; color: whitesmoke;}
+
+div.Contenido{  background-color: black;
+                margin-left: 200px; 
+                padding: 1px 16px; 
+                height: 1500px;}
+
+.Cine{ display: none;}
+
+Peliculas:target, Series:target, Datos:target, Actores:target, Actrices:target{display: block;}
+
+@media screen and (max-width: 1200px) {
+    div.Barra{ position:relative; width: 100%; height: auto;}
+    
+    .Barra a {float: left;}
+    div.Contenido {margin-left: 0;}
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .Barra a{float: none; text-align: center;}
+    
+}
