@@ -7,7 +7,7 @@ div.Barra
 { 
     position: fixed; 
     background-image: url(https://img.freepik.com/foto-gratis/textura-fondo-alfombra-roja_103740-96.jpg?size=626&ext=jpg); 
-    width: 100px;
+    width: 130px;
     height: 100%;
     overflow: auto;
     
@@ -28,9 +28,23 @@ a
     padding: 5px;
 }
 
-a:hover
+
+
+.Barra a:hover
 {
-    background-color: dimgray; color: whitesmoke;
+    background-image: url(https://imgur.com/43MIk8X);
+    color: whitesmoke;
+}
+
+
+
+.Contenido .img :hover 
+{
+    -webkit-transform:scale(1.3);transform:scale(1.3);
+}
+.Contenido 
+{
+    overflow: hidden;
 }
 
 div.Contenido
@@ -42,8 +56,8 @@ div.Contenido
     border: rgb(223, 236, 34) 10px dotted;
     
     margin: 0px;
-    padding-top: 10px;
-    padding-left: 100px;
+    padding-top: 40px;
+    padding-left: 130px;
     background-color: rgb(39, 45, 47);
     background-clip: border-box;
     
@@ -60,7 +74,12 @@ div.Contenido
 #Actores:target, 
 #Actrices:target{display: block;}
 
-@media screen and (max-width: 1000px) {
+#Peliculas:hover 
+{
+    background-image: url(https://imgur.com/43MIk8X);
+}
+
+@media screen and (max-width: 1100px) {
     div.Barra{ position:relative; width: 100%; height: auto;}
     div.Barra a
     {
@@ -75,7 +94,7 @@ div.Contenido
 }
 
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 700px) {
     .Barra a{float: none; text-align: center;}
     div.Barra a
     {
