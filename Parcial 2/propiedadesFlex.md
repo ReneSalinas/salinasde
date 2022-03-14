@@ -14,11 +14,7 @@
 **Tabla de propiedades Padres (CONTAINER)**
 |     PROPIEDAD     |  ¿QUÉ HACE? | VALORES  |
 |-------------------|-------------|----------|
-|     Display       |  Esto es lo único que necesitamos para configurar el contenedor principal y automáticamente todos sus hijos se convertirán en elementos flex.           | **OUTSIDE**block, inline,run-in.
-**INSIDE**flow, flow-root, table, flex, grid, subgrid, ruby. 
-**INTERNAL**table-row-group, table-header-group, table-footer-group, table-row, table-cell, table-column-group, table-column, table-caption, ruby-base, ruby-text, ruby-base-container, ruby-text-container. 
-**BOX** contents, none. 
-**LEGACY** inline-block, inline-table, inline-flex, inline-grid.            |
+|     Display       |  Esto es lo único que necesitamos para configurar el contenedor principal y automáticamente todos sus hijos se convertirán en elementos flex.           | **OUTSIDE**block, inline,run-in.   **INSIDE**flow, flow-root, table, flex, grid, subgrid, ruby.     **INTERNAL**table-row-group, table-header-group, table-footer-group, table-row, table-cell, table-column-group, table-column, table-caption, ruby-base, ruby-text, ruby-base-container, ruby-text-container.    **BOX** contents, none.     **LEGACY** inline-block, inline-table, inline-flex, inline-grid.            |
 |  Flex-direction   |  Esta propiedad define las direcciones del main-axis, es decir, hacia donde se moverán los flex-items, tanto horizontalmente como verticalmente.           |  column, row, row-reverse.        |
 |    Flex-wrap      |  Por defecto los flex-items intentarán estar contenidos en una sola línea. Con esta propiedad puedes cambiarlo y permitir que los items se envuelvan como sea necesario.           | wrap, nowrap, wrap-reverse.         |
 |    Flex-flow      |  Esta propiedad combina las propiedades flex-direction y flex-wrap.           | row wrap.         |
