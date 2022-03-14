@@ -14,7 +14,7 @@
 **Tabla de propiedades Padres (CONTAINER)**
 |     PROPIEDAD     |  ¿QUÉ HACE? | VALORES  |
 |-------------------|-------------|----------|
-|     Display       |             |          |
+|     Display       |  Esto es lo único que necesitamos para configurar el contenedor principal y automáticamente todos sus hijos se convertirán en elementos flex.           |          |
 |  Flex-direction   |             |          |
 |    Flex-wrap      |             |          |
 |    Flex-flow      |             |          |
