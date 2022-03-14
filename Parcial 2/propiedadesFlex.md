@@ -26,7 +26,11 @@
 **Tabla de propiedades Hijos (ITEM)**
 | PROPIEDAD  |  ¿QUÉ HACE? | VALORES  |
 |------------|-------------|----------|
-|            |             |          |
-|            |             |          |
-|            |             |          |
+| Order      |Con esta propiedad controlamos el orden de los flex-items que están dentro del flex-container. Por defecto aparecen en el orden que indica el código fuente.             |          |
+| Flex-grow  |Esta propiedad especifica el factor que determina hasta que punto un flex-item crecerá en relación con el resto de los flex-items.             |          |
+| Flex-shrink|Esta propiedad da la capacidad de encoger los flex-items si es necesario.             |          |
+| Flex-basis |Esta propiedad tiene los mismos valores que las propiedades width y height y especifica el tamaño principal del flex-item, distribuyéndose de acuerdo con los factores flex.             |          |
+| Flex       |Esta propiedad solo es la abreviatura de flex-grow, flex-shrink y flex-basis.             |          |
+| Align-self |Esta propiedad permite sobreescribir la alineación por defecto (o la especificada por align-items) para flex-items individualmente.             |          |
+
 
