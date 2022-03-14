@@ -15,12 +15,12 @@
 |     PROPIEDAD     |  ¿QUÉ HACE? | VALORES  |
 |-------------------|-------------|----------|
 |     Display       |  Esto es lo único que necesitamos para configurar el contenedor principal y automáticamente todos sus hijos se convertirán en elementos flex.           |          |
-|  Flex-direction   |             |          |
-|    Flex-wrap      |             |          |
-|    Flex-flow      |             |          |
-|  Justify-content  |             |          |
-|    Align-items    |             |          |
-|   Align-content   |             |          |
+|  Flex-direction   |  Esta propiedad define las direcciones del main-axis, es decir, hacia donde se moverán los flex-items, tanto horizontalmente como verticalmente.           |          |
+|    Flex-wrap      |  Por defecto los flex-items intentarán estar contenidos en una sola línea. Con esta propiedad puedes cambiarlo y permitir que los items se envuelvan como sea necesario.           |          |
+|    Flex-flow      |  Esta propiedad combina las propiedades flex-direction y flex-wrap.           |          |
+|  Justify-content  |  Esta propiedad define cómo los elementos flexibles se alinean a lo largo del main-axis (horizontal).           |          |
+|    Align-items    |  Esta propiedad define cómo los elementos flexibles se disponen a lo largo del cross-axis (vertical).           |          |
+|   Align-content   |  Esta propiedad controla la alineación de las lineas a lo largo del cross-axis cuando los elementos no utilizan todo el espacio disponible.           |          |
 
 
 **Tabla de propiedades Hijos (ITEM)**
