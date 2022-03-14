@@ -3,10 +3,10 @@
 
 **Tabla de propiedades Padres**
 | PROPIEDAD  |  ¿QUÉ HACE? | VALORES  |
-|---    |---           |---|---|---|
-|       |              |   |   |   |
-|       |              |   |   |   |
-|       |              |   |   |   |
+|------------|-------------|----------|
+|            |             |          |
+|            |             |          |
+|            |             |          |
 
 **Tabla de propiedades Hijos**
 | Hola  |  propiedades |   |   |   |
