@@ -8,6 +8,9 @@ Flexbox es un método de diseño de página unidimensional para compaginar eleme
 ![Error](https://miro.medium.com/max/1318/1*2nFQE8qZgUq0kTyju6Bnvg.png)
 
 
+
+
+
 **Tabla de propiedades Padres**
 | PROPIEDAD  |  ¿QUÉ HACE? | VALORES  |
 |------------|-------------|----------|
