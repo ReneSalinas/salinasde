@@ -16,9 +16,9 @@
 |-------------------|-------------|----------|
 |     Display       |  Esto es lo único que necesitamos para configurar el contenedor principal y automáticamente todos sus hijos se convertirán en elementos flex.           | flex.         |
 |  Flex-direction   |  Esta propiedad define las direcciones del main-axis, es decir, hacia donde se moverán los flex-items, tanto horizontalmente como verticalmente.           |  column, row, row-reverse.        |
-|    Flex-wrap      |  Por defecto los flex-items intentarán estar contenidos en una sola línea. Con esta propiedad puedes cambiarlo y permitir que los items se envuelvan como sea necesario.           | wrap, nowrap, wrap-reverse         |
+|    Flex-wrap      |  Por defecto los flex-items intentarán estar contenidos en una sola línea. Con esta propiedad puedes cambiarlo y permitir que los items se envuelvan como sea necesario.           | wrap, nowrap, wrap-reverse.         |
 |    Flex-flow      |  Esta propiedad combina las propiedades flex-direction y flex-wrap.           | row wrap.         |
-|  Justify-content  |  Esta propiedad define cómo los elementos flexibles se alinean a lo largo del main-axis (horizontal).           |  center, flex-start, flex-end, space-around, space-between         |
+|  Justify-content  |  Esta propiedad define cómo los elementos flexibles se alinean a lo largo del main-axis (horizontal).           |  center, flex-start, flex-end, space-around, space-between.         |
 |    Align-items    |  Esta propiedad define cómo los elementos flexibles se disponen a lo largo del cross-axis (vertical).           | center, flex-start, flex-end, stretch, baseline.            |
 |   Align-content   |  Esta propiedad controla la alineación de las lineas a lo largo del cross-axis cuando los elementos no utilizan todo el espacio disponible.           | flex-start, flex-end, stretch, center,space-between.          |
 
@@ -27,11 +27,12 @@
 **Tabla de propiedades Hijos (ITEM)**
 | PROPIEDAD  |  ¿QUÉ HACE? | VALORES  |
 |------------|-------------|----------|
-| Order      |Con esta propiedad controlamos el orden de los flex-items que están dentro del flex-container. Por defecto aparecen en el orden que indica el código fuente.             |          |
-| Flex-grow  |Esta propiedad especifica el factor que determina hasta que punto un flex-item crecerá en relación con el resto de los flex-items.             |          |
-| Flex-shrink|Esta propiedad da la capacidad de encoger los flex-items si es necesario.             |          |
-| Flex-basis |Esta propiedad tiene los mismos valores que las propiedades width y height y especifica el tamaño principal del flex-item, distribuyéndose de acuerdo con los factores flex.             |          |
-| Flex       |Esta propiedad solo es la abreviatura de flex-grow, flex-shrink y flex-basis.             |          |
-| Align-self |Esta propiedad permite sobreescribir la alineación por defecto (o la especificada por align-items) para flex-items individualmente.             |          |
+| Order      |Con esta propiedad controlamos el orden de los flex-items que están dentro del flex-container. Por defecto aparecen en el orden que indica el código fuente.             | número.          |
+| Flex-grow  |Esta propiedad especifica el factor que determina hasta que punto un flex-item crecerá en relación con el resto de los flex-items.             | número         |
+| Flex-shrink|Esta propiedad da la capacidad de encoger los flex-items si es necesario.             |  número        |
+| Flex-basis |Esta propiedad tiene los mismos valores que las propiedades width y height y especifica el tamaño principal del flex-item, distribuyéndose de acuerdo con los factores flex.             | width, content
+.         |
+| Flex       |Esta propiedad solo es la abreviatura de flex-grow, flex-shrink y flex-basis.             | row, row-reverse, column, column-reverse         |
+| Align-self |Esta propiedad permite sobreescribir la alineación por defecto (o la especificada por align-items) para flex-items individualmente.             | auto, flex-start, flex-end, center, baseline, stretch.          |
 
 
