@@ -1,4 +1,4 @@
-# **PROPIEDADES FLEXBOX**
+# **<center>PROPIEDADES FLEXBOX</center>**
 
 
 **¿Qué es?**
