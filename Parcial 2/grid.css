@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 20% 70% 10%;
+
+    grid-template-areas: 'header header' 
+                         'sidebar contentt' 
+                         'footer footer';
+
+    justify-content: center;
+    align-content: center;
+
+}
+
+.caja{
+    background-color: aqua;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#header {
+    grid-area: header;
+}
+#sidebar {
+    grid-area: sidebar;
+}
+#contentt {
+    grid-area: contentt;
+}
+#footer {
+    grid-area: footer;
+}
