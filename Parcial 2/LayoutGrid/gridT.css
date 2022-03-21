@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.contenedor {
+    width: 100vw;
+    height: 100vh;
+    
+
+    display: grid;
+    grid-template-columns:  repeat(5, 1fr) /**o 1fr 1fr 1fr 1fr 1fr **/;  
+    grid-template-rows: repeat(4, 1fr) /**o 1fr 1fr 1fr 1fr **/; 
+
+    
+
+    justify-content: center;
+    align-content: center;
+
+
+    grid-template-areas: 
+    "aside Section1 Section1 Section2 Section2"
+    "aside Section1 Section1 Section2 Section2"
+    "aside Section3 Section3 Section4 Section4"
+    "aside Section3 Section3 Section4 Section4";
+}
+
+
+.caja{
+    background-color: rgb(118,88,152);
+    text-align: center;
+    border: 2px solid rgb(82,208,83);
+}
+
+
+
+#aside{
+    grid-area: aside;
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/738/177/106/galaxy-portrait-display-space-vertical-wallpaper-preview.jpg");
+}
+#section1 {
+    grid-area: Section1;
+}
+#section2 {
+    grid-area: Section2;
+    
+    
+}
+#section3 {
+    grid-area: Section3;
+    
+}
+#section4 {
+    grid-area: Section4;
+    
+}
+
+
