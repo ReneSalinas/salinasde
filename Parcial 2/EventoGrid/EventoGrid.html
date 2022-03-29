@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF=8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device=width, initial-scale=1">
+    <link rel="stylesheet" href="EventoGrid.css">
+    <title>Practica En Clase Grid Drop</title>
+</head>
+<body>
+    <div id="idcontene" class="contenedor">
+        <div id="caja1" class="caja">caja 1</div>
+        <div id="caja2" class="caja">caja 2</div>
+        <div id="caja3" class="caja">caja 3</div>
+        <div id="caja4" class="caja">caja 4</div>
+        <div id="caja5" class="caja">caja 5</div>
+        <div id="caja6" class="caja">caja 6</div>
+    </div>
+    <script>
+        window.onload = function(){
+            document.getElementById("idcontene").addEventListener("click",function(evento){
+               document.getElementById(evento.target.id).classList.toggle("cajaSeleccionada");
+               console.log(event.target.id);
+            });
+        }
+    </script>
+</body>
+</html>
