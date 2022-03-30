@@ -4,10 +4,10 @@
 * Cuando un evento ocurre en un elemento, este primero ejecuta los manejadores que tiene asignados, luego los manejadores de su padre, y así hasta otros ancestros.
 Una de las intenciones de JavaScript con la creación del patrón de propagación de eventos era facilitar la captura de eventos de una fuente, el elemento padre, en lugar de configurar un controlador de eventos en cada elemento secundario interno.
 
-![Error](https://miro.medium.com/max/1318/1*2nFQE8qZgUq0kTyju6Bnvg.png)
-
-**¿Qué es FLEX-CONTAINER?**
+**Orden de activación de propagación de eventos**
 * Es el elemento padre que contendrá a los flex-items y que indicará el posicionamiento de sus hijos dentro de él. Para definirlo se usa el valor flexen la propiedad display.
+
+![Error](https://ehsankorhani.com/images/js-event-capture-bubble.png)
 
 **¿Qué es FLEX-ITEM?**
 * Es el elemento que se encuentra dentro del flex-container que tendrá un comportamiento automático dependiendo lo que defina el elemento padre.
