@@ -9,6 +9,10 @@ Una de las intenciones de JavaScript con la creación del patrón de propagació
 
 ![Error](https://ehsankorhani.com/images/js-event-capture-bubble.png)
 
+1. **Fase de captura:** es la primera fase en la que se activa un evento. Este evento "captura" o se propaga primero a través del evento padre, que es el objeto de window, luego el document, luego el html y luego los demás elementos internos. Baja hasta que llega al event.target (en lo que hiciste clic / el evento desencadenado).
+2. **Fase objetiva:** la segunda fase es cuando llegamos al event.target . Por ejemplo, cuando un usuario hace clic en un botón, este es el elemento actual de botón.
+3. **Fase de propagación:** la tercera fase. Este evento comienza desde event.target y se propaga hasta que llega al elemento padre superior nuevamente (aunque el evento del elemento padre no se vuelve a llamar).
+
 **¿Qué es FLEX-ITEM?**
 * Es el elemento que se encuentra dentro del flex-container que tendrá un comportamiento automático dependiendo lo que defina el elemento padre.
 
