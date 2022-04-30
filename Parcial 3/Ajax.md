@@ -14,6 +14,7 @@ Usando AJAX, el contenido de una página web puede actualizarse en función de l
 ![Error](https://www.hostinger.es/tutoriales/wp-content/uploads/sites/7/2019/05/que-es-ajax-diagrama.jpg)
 
 |       MODELO CONVENCIONAL     |       MODELO AJAX     |
+|-------------------------------|-----------------------|
 | **1.-**Se envía una solicitud HTTP desde el navegador web al servidor.                               | **1.-**El navegador crea una llamada de JavaScript que luego activará XMLHttpRequest.                       |
 | **2.-**El servidor recibe y, posteriormente, recupera los datos.                               | **2.-**En segundo plano, el navegador web crea una solicitud HTTP al servidor.                      |
 | **3.-**El servidor envía los datos solicitados al navegador web.                            | **3.-** El servidor recibe, recupera y envía los datos al navegador web.                      |
