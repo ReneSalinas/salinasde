@@ -14,9 +14,9 @@
 
 <body>
     <div class="container">
-    <form class="form" name="formulario1">
+    <form class="form" name="formulario1" action="CargarControl.js">
 
-      <h1> REGISTRO DE INVENTARIO </h1>
+      <h1 id="Cabeza"> REGISTRO DE INVENTARIO </h1>
       <br></br>
       <div class="row">
           <div class="form-group col-sm-12 col-md-4 col-lg-12">
@@ -25,7 +25,7 @@
           </div>
           <div class="form-group col-sm-12 col-md-8 col-lg-12">
                 <label for="NombreProducto" class="text-info">NOMBRE DEL PRODUCTO</label>
-                <input id="NombreProducto" type="text" class="form-control" placeholder="Call of Duty"/>
+                <input id="NombreProducto" oninput="ajaxFunction();" type="text" class="form-control" placeholder="Call of Duty"/>
           </div>
       </div>
 
@@ -130,12 +130,7 @@
     </div>
   </div>
 
-  <button id="botonAjax" type="button" value="boton Ajax">AJAX</button> <!-- PRACTICA NUEVA AJAX -->      
-  
-    <label for="nom">Nombre</label>
-    <input id="nom" type="text" name="nombre" oninput="ajaxFunction();" />
-    <label for="hor">Hora</label>
-    <input id="hor" type="text" name="hora" size="20" />
+
   
 
 

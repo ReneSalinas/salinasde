@@ -9,7 +9,9 @@ function ajaxFunction() {
     //-------------------------------------------------
     ajaxRequest.onreadystatechange = function() {
         if (ajaxRequest.readyState == 4)                                // La respuesta esta lista?
-        { document.formulario1.hora.value = ajaxRequest.responseText; } // Obtenemos la respuesta
+        {// document.formulario1.hora.value = ajaxRequest.responseText; 
+        document.getElementById("Cabeza").innerHTML= "HOla"
+        } // Obtenemos la respuesta
     };
 
     ajaxRequest.open("GET","cargar.php",true);  //Configurar la solicitud
