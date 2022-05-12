@@ -1,17 +1,17 @@
     $(document).ready(function() {
 
       $('#btnjson').click(function() {
-          $.post('getregistro.php',{},function(data){
+          $.post('getRegistro.php',{},function(data){
 
                 console.log(data);
-                $('#idCliente').val(data.idCliente);
-                $('#nomCliente').val(data.nomCliente);
-                $('#hora').val(data.hora);
-                $('#dirCliente').val(data.dirCliente);
-                $('#telCliente').val(data.telCliente);
-                $('#ciudad').val(data.ciudad);
-                $('#estado').val(data.estado);
-                $('#pais').val(data.pais);
+                $('#idE').val(data.idE);
+                $('#NombreProducto').val(data.NombreProducto);
+                $('#idP').val(data.idP);
+                $('#idPresentacion').val(data.idPresentacion);
+                $('#costo').val(data.costo);
+                $('#cantidad').val(data.cantidad);
+                $('#idC').val(data.idC);
+                $('#idEstado').val(data.idEstado);
 
             },'json');
       });
