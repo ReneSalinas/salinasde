@@ -1,5 +1,5 @@
-create database 19100254;
-use 19100254;
+create database L19100254;
+use L19100254;
 
 DROP TABLE cusuario;
 
