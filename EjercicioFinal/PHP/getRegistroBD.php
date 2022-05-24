@@ -1,11 +1,12 @@
 <?php
 
-$iduser=$_POST['par1'];
+$id=$_POST['par1'];
 $hostname='localhost';
 $database='L19100254'; // l19100254
 $username='root';
 $password='';
 $port='3306';
+
 try{
     $con = new PDO("mysql:host=$hostname;dbname=$database;port=$port",$username,$password);
 }catch(PDOException $e) {
@@ -15,7 +16,7 @@ try{
 }
 
 try{
-    $consultaSql = "select * from empleados where idEmpleado=".$iduser;
+    $consultaSql = "select * from cusuario where idEmpleado=".$id;
     $consulta = $con -> prepare($consultaSql);
     $consulta -> execute();
     $resultado = $consulta->fetch(PDO::FETCH_ASSOC);
