@@ -8,16 +8,33 @@ $(document).ready(function() {
       //se cierra
       $("#btnNuevo").attr("disabled", "disabled");
 
-         let parid=prompt("Teclee el ID a consultar");
+      Swal.fire(
+        {
+          title: "INGRESE SU ID",
+          input: "text",
+          showCancelButton: true,
+          confirmButtonText: "CONSULTAR",
+          cancelButtonText: "CANCELAR",
+        }).then(resultado => {
+        
+        let nombre = resultado.value;
+        let parid = nombre;
+        
+        //  let parid=prompt("Teclee el ID a consultar");
          $.post('../PHP/getRegistroBD.php',{par1:parid},function(data){
            refrescar(data);
            },'json');
+
+         
+    });
+
      });
 
      document.getElementById("btnLimpiar").addEventListener("click",function(){
       completado();
       //se reinicia los botones
       reiniciar();
+      Swal.fire("SE LIMPIO CORRECTAMENTE");
      });
 
      document.getElementById("btnNuevo").addEventListener("click",function(){
@@ -41,9 +58,12 @@ $(document).ready(function() {
       $('#btnLimpiar').removeAttr("disabled");
       $('#btnAgregar').removeAttr("disabled");
 
+      Swal.fire("FORMATO LISTO");
+
      });
 
      document.getElementById("btnAgregar").addEventListener("click",function(){
+      
       let idEmpleado = document.getElementById("idE").value;
       var nombre = document.getElementById("NombreProducto").value;
       var plataforma = document.getElementById("idP").value;
@@ -56,8 +76,9 @@ $(document).ready(function() {
       $.post('../PHP/agregaBD.php',{par1:idEmpleado,par2:nombre,par3:plataforma,par4:presentacion,par5:costo,par6:cantidad,par7:clasificacion,par8:estado},
       function(data){
         },'json');
-        alert("Agregado con exito");
+        
       completado();
+      Swal.fire("SE AGREGO CORRECTAMENTE");
      });
 
      document.getElementById("btnEliminar").addEventListener("click",function(){
@@ -65,6 +86,7 @@ $(document).ready(function() {
       $.post('../PHP/borrarBD.php',{par1:idEmpleado},function(data){
         completado();
     },'json');
+    Swal.fire("SE ELIMINO CORRECTAMENTE");
      });
 
      document.getElementById("btnEditar").addEventListener("click",function(){
@@ -87,9 +109,9 @@ $(document).ready(function() {
 
       $.post('../PHP/editarBD.php',{par1:idEmpleado,par2:nombre,par3:plataforma,par4:presentacion,par5:costo,par6:cantidad,par7:clasificacion,par8:estado},
       function(data){  
-        
       },'json');
-      
+
+      Swal.fire("SE EDITO CORRECTAMENTE");
      });
 
     function refrescar(objeto) 
