@@ -90,6 +90,10 @@ $(document).ready(function() {
      });
 
      document.getElementById("btnEditar").addEventListener("click",function(){
+      
+        Swal.fire("LISTO PARA EDITAR");
+      
+     
       $('#NombreProducto').removeAttr("disabled");
       $('#idP').removeAttr("disabled");
       $('#idPresentacion').removeAttr("disabled");
@@ -111,7 +115,9 @@ $(document).ready(function() {
       function(data){  
       },'json');
 
-      Swal.fire("SE EDITO CORRECTAMENTE");
+      
+      
+      
      });
 
     function refrescar(objeto) 
